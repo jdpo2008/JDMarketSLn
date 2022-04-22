@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "g2OCC9MGz1pRdnluRjPQ2RjlDr0v2HwyucTEhc56CWzMA+LSog9ymeKGm7BVg1K1gEg8VkoiXLGoMMpCnNlcDg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\USUARIO\\source\\repos\\JdMarketSln\\src\\Shared\\JdMarketSln.Shared.Setup\\JdMarketSln.Shared.Setup.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.9\\microsoft.extensions.dependencyinjection.abstractions.3.1.9.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.extensions.dependencymodel\\3.1.6\\microsoft.extensions.dependencymodel.3.1.6.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\scrutor\\4.1.0\\scrutor.4.1.0.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+  ],
+  "logs": []
+}
