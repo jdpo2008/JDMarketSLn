@@ -20,9 +20,9 @@ namespace JdMarketSln.Application.Features.Products.Queries.GetProductById
 
     public class GetProductByIdQueryHandler : IRequestHandler<GetProductByIdQuery, Response<GetProductByIdDto>>
     {
-
         private readonly IProductGenericRepository _ProducRepository;
         private readonly IMapper _mapper;
+
         public GetProductByIdQueryHandler(IProductGenericRepository ProducRepository, IMapper Mapper)
         {
             _ProducRepository = ProducRepository;

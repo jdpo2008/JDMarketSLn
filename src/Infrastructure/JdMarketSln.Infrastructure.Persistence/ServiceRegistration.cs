@@ -34,7 +34,7 @@ namespace JdMarketSln.Infrastructure.Persistence
             services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddTransient<IProductGenericRepository, ProductGenericRepository>();
             services.AddTransient<ISuplierGenericRepository, SuplierGenericRepository>();
-            //services.AddTransient<ICategoryRepositoryAsync, CategoryRepositoryAsync>();
+            services.AddTransient<ICategoryGenericRepository, CategoryGenericRepository>();
             #endregion
         }
 

@@ -20,8 +20,6 @@
   <ItemGroup>
     <Folder Include="DTOs\" />
     <Folder Include="Behaviors\" />
-    <Folder Include="Features\Categories\Commands\" />
-    <Folder Include="Features\Categories\Queries\" />
   </ItemGroup>
 
 </Project>
