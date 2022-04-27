@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "e7Kz8/YGqNNh1gXI7BvlJEsFQFJD35+GPf5kbEZnvmicjZ8wX4urOdfwGdHeAtGlGlV1maLzxyLUcl087ICtfg==",
+  "dgSpecHash": "g6bkUMWLCpWr47BOAlojAFohJOEiEAajbIe6RMxChxye/oR5gDZ4YMKkodzlhysxidxMFrIFGnztsA28Nkqh6g==",
   "success": true,
   "projectFilePath": "C:\\Users\\USUARIO\\source\\repos\\JdMarketSln\\src\\infrastructure\\JdMarketSln.Infrastructure.Persistence\\JdMarketSln.Infrastructure.Persistence.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\USUARIO\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.4.0\\fluentvalidation.dependencyinjectionextensions.10.4.0.nupkg.sha512",

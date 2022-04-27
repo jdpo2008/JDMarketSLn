@@ -1,0 +1,17 @@
+C:\Users\USUARIO\source\repos\JdMarketSln\src\Infrastructure\JdMarketSln.Infrastructure.Shared\bin\Debug\net5.0\JdMarketSln.Infrastructure.Shared.deps.json
+C:\Users\USUARIO\source\repos\JdMarketSln\src\Infrastructure\JdMarketSln.Infrastructure.Shared\bin\Debug\net5.0\JdMarketSln.Infrastructure.Shared.dll
+C:\Users\USUARIO\source\repos\JdMarketSln\src\Infrastructure\JdMarketSln.Infrastructure.Shared\bin\Debug\net5.0\JdMarketSln.Infrastructure.Shared.pdb
+C:\Users\USUARIO\source\repos\JdMarketSln\src\Infrastructure\JdMarketSln.Infrastructure.Shared\bin\Debug\net5.0\JdMarketSln.Application.dll
+C:\Users\USUARIO\source\repos\JdMarketSln\src\Infrastructure\JdMarketSln.Infrastructure.Shared\bin\Debug\net5.0\JdMarketSln.Domain.dll
+C:\Users\USUARIO\source\repos\JdMarketSln\src\Infrastructure\JdMarketSln.Infrastructure.Shared\bin\Debug\net5.0\JdMarketSln.Application.pdb
+C:\Users\USUARIO\source\repos\JdMarketSln\src\Infrastructure\JdMarketSln.Infrastructure.Shared\bin\Debug\net5.0\JdMarketSln.Domain.pdb
+C:\Users\USUARIO\source\repos\JdMarketSln\src\Infrastructure\JdMarketSln.Infrastructure.Shared\obj\Debug\net5.0\JdMarketSln.Infrastructure.Shared.csproj.AssemblyReference.cache
+C:\Users\USUARIO\source\repos\JdMarketSln\src\Infrastructure\JdMarketSln.Infrastructure.Shared\obj\Debug\net5.0\JdMarketSln.Infrastructure.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\source\repos\JdMarketSln\src\Infrastructure\JdMarketSln.Infrastructure.Shared\obj\Debug\net5.0\JdMarketSln.Infrastructure.Shared.AssemblyInfoInputs.cache
+C:\Users\USUARIO\source\repos\JdMarketSln\src\Infrastructure\JdMarketSln.Infrastructure.Shared\obj\Debug\net5.0\JdMarketSln.Infrastructure.Shared.AssemblyInfo.cs
+C:\Users\USUARIO\source\repos\JdMarketSln\src\Infrastructure\JdMarketSln.Infrastructure.Shared\obj\Debug\net5.0\JdMarketSln.Infrastructure.Shared.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\source\repos\JdMarketSln\src\Infrastructure\JdMarketSln.Infrastructure.Shared\obj\Debug\net5.0\JdMarketSln.Infrastructure.Shared.csproj.CopyComplete
+C:\Users\USUARIO\source\repos\JdMarketSln\src\Infrastructure\JdMarketSln.Infrastructure.Shared\obj\Debug\net5.0\JdMarketSln.Infrastructure.Shared.dll
+C:\Users\USUARIO\source\repos\JdMarketSln\src\Infrastructure\JdMarketSln.Infrastructure.Shared\obj\Debug\net5.0\refint\JdMarketSln.Infrastructure.Shared.dll
+C:\Users\USUARIO\source\repos\JdMarketSln\src\Infrastructure\JdMarketSln.Infrastructure.Shared\obj\Debug\net5.0\JdMarketSln.Infrastructure.Shared.pdb
+C:\Users\USUARIO\source\repos\JdMarketSln\src\Infrastructure\JdMarketSln.Infrastructure.Shared\obj\Debug\net5.0\ref\JdMarketSln.Infrastructure.Shared.dll

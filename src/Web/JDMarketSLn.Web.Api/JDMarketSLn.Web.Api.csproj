@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="FluentValidation.AspNetCore" Version="10.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.16">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -20,6 +21,11 @@
     <ProjectReference Include="..\..\Application\JdMarketSln.Application\JdMarketSln.Application.csproj" />
     <ProjectReference Include="..\..\Infrastructure\JdMarketSln.Infrastructure.Identity\JdMarketSln.Infrastructure.Identity.csproj" />
     <ProjectReference Include="..\..\infrastructure\JdMarketSln.Infrastructure.Persistence\JdMarketSln.Infrastructure.Persistence.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\JdMarketSln.Infrastructure.Shared\JdMarketSln.Infrastructure.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\" />
   </ItemGroup>
 
 </Project>
