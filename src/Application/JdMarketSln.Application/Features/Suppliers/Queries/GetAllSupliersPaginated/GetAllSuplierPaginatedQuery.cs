@@ -31,10 +31,10 @@ namespace JdMarketSln.Application.Features.Suppliers.Queries.GetAllSupliersPagin
         public async Task<PagedResponse<IEnumerable<GetAllSupliersPaginatedDto>>> Handle(GetAllSuplierPaginatedQuery request, CancellationToken cancellationToken)
         {
             var validFilter = _mapper.Map<GetAllSuplierPaginatedRequest>(request);
-            var products = await _SuplierRepository.GetAllPaginated(validFilter.PageNumber, validFilter.PageSize);
-            var response = _mapper.Map<IEnumerable<GetAllSupliersPaginatedDto>>(products);
+            var supliers = await _SuplierRepository.GetAllPaginated(validFilter.PageNumber, validFilter.PageSize);
+            var response = _mapper.Map<IEnumerable<GetAllSupliersPaginatedDto>>(supliers);
 
-            return new PagedResponse<IEnumerable<GetAllSupliersPaginatedDto>>(response, validFilter.PageNumber, validFilter.PageSize, products.Count());
+            return new PagedResponse<IEnumerable<GetAllSupliersPaginatedDto>>(response, validFilter.PageNumber, validFilter.PageSize, supliers.Count());
         }
     }
 }

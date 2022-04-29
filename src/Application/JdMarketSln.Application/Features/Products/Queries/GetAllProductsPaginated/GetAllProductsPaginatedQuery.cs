@@ -32,7 +32,7 @@ namespace JdMarketSln.Application.Features.Products.Queries.GetAllProductsPagina
         public async Task<PagedResponse<IEnumerable<GetAllProductsPaginatedDto>>> Handle(GetAllProductsPaginatedQuery request, CancellationToken cancellationToken)
         {
             var validFilter = _mapper.Map<GetAllProductsPaginatedRequest>(request);
-            var products = await _ProductRepository.GetAllPaginated(validFilter.PageNumber, validFilter.PageSize);
+            var products = await _ProductRepository.GetAllIncludeAsync(validFilter.PageNumber, validFilter.PageSize);
             var response = _mapper.Map<IEnumerable<GetAllProductsPaginatedDto>>(products);
 
             return new PagedResponse<IEnumerable<GetAllProductsPaginatedDto>>(response, validFilter.PageNumber, validFilter.PageSize, products.Count());

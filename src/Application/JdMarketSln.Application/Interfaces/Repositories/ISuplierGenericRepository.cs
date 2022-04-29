@@ -9,5 +9,6 @@ namespace JdMarketSln.Application.Interfaces.Repositories
 {
     public interface ISuplierGenericRepository : IGenericRepository<Suplier>
     {
+        Task<List<Suplier>> GetAllIncludeAsync(int pageNumber, int pageSize);
     }
 }

@@ -23,6 +23,8 @@ namespace JdMarketSln.Application.Features.Suppliers.Queries.GetSuplierById
         public string CreatedBy { get; set; }
         public DateTime CreatedAt { get; set; }
 
+        //public ICollection<Product> Products { get; set; }
+
         public void Mapping(Profile profile)
         {
             profile.CreateMap<Suplier, GetSuplierByIdDto>();

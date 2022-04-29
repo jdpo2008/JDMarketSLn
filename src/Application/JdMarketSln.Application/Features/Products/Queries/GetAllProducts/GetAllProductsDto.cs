@@ -14,8 +14,8 @@ namespace JdMarketSln.Application.Features.Products.Queries.GetAllProducts
         public Guid Id { get; set; }
         public string ProductName { get; set; }
         public string ProductDescription { get; set; }
-        public Guid CategoryId { get; set; }
-        public Guid SuplierId { get; set; }
+        public string CategoryId { get; set; }
+        public string SuplierId { get; set; }
         public decimal Price { get; set; }
         public string CreatedBy { get; set; }
         public DateTime CreatedAt { get; set; }

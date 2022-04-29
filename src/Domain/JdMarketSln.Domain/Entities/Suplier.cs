@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace JdMarketSln.Domain.Entities
@@ -17,7 +18,7 @@ namespace JdMarketSln.Domain.Entities
         public string Country { get; set; }
         public string City { get; set; }
         public string Adrress { get; set; }
-
+        
         public virtual ICollection<Product> Products { get; set; }
     }
 }

@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace JdMarketSln.Domain.Entities
@@ -14,7 +15,9 @@ namespace JdMarketSln.Domain.Entities
         public decimal Price { get; set; }
         public Guid CategoryId { get; set; }
         public Guid SuplierId { get; set; }
+        [JsonIgnore]
         public virtual Category Category { get; set; }
+        [JsonIgnore]
         public virtual Suplier Suplier { get; set; }
         
     }

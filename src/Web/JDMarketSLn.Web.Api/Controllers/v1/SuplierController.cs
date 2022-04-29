@@ -14,29 +14,43 @@ namespace JDMarketSLn.Web.Api.Controllers.v1
     {
 
         [HttpGet]
-        public async Task<IActionResult> Get([FromQuery] GetAllSuplierPaginatedRequest filter)
+        [Produces("application/json")]
+        [ProducesResponseType(201)]
+        [ProducesResponseType(400)]
+        public async Task<IActionResult> GetAll([FromQuery] GetAllSuplierPaginatedRequest filter)
         {
             return Ok(await Mediator.Send(new GetAllSuplierPaginatedQuery() { PageSize = filter.PageSize, PageNumber = filter.PageNumber }));
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> Get(Guid id)
+        [Produces("application/json")]
+        [ProducesResponseType(201)]
+        [ProducesResponseType(400)]
+        public async Task<IActionResult> GetById(Guid id)
         {
             return Ok(await Mediator.Send(new GetSuplierByIdQuery() { Id = id }));
         }
 
         [HttpPost]
         //[Authorize]
-        public async Task<IActionResult> Post(CreateSuplierCommand command)
+        [Produces("application/json")]
+        [ProducesResponseType(201)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(401)]
+        public async Task<IActionResult> Create(CreateSuplierCommand command)
         {
             var response = await Mediator.Send(command);
 
-            return CreatedAtAction(nameof(Post), response);
+            return CreatedAtAction(nameof(Create), response);
         }
 
         [HttpPut]
         //[Authorize]
-        public async Task<IActionResult> Put(Guid id, UpdateSuplierCommand command)
+        [Produces("application/json")]
+        [ProducesResponseType(200)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(401)]
+        public async Task<IActionResult> Update(Guid id, UpdateSuplierCommand command)
         {
             if (id != command.Id)
             {
@@ -49,6 +63,10 @@ namespace JDMarketSLn.Web.Api.Controllers.v1
 
         [HttpDelete("{id}")]
         //[Authorize]
+        [Produces("application/json")]
+        [ProducesResponseType(200)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(401)]
         public async Task<IActionResult> Delete(Guid id)
         {
             var response = await Mediator.Send(new DeleteSuplierCommand { Id = id });

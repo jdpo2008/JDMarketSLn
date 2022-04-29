@@ -5,7 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 namespace JDMarketSLn.Web.Api.Controllers
 {
     [ApiController]
-    [Route("api/v{version:apiVersion}/[controller]")]
+    [Route("api/v{version:apiVersion}/[controller]/[action]")]
     public class BaseApiController : ControllerBase
     {
         private IMediator _mediator;

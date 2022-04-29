@@ -19,15 +19,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JDMarketSLn.Web.Api", "src\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JDMarketSLn.Web.UI", "src\Web\JDMarketSLn.Web.UI\JDMarketSLn.Web.UI.csproj", "{3A520D0C-5EEA-4B91-B4E3-4079D3D70F03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JdMarketSln.Infrastructure.Identity", "src\Infrastructure\JdMarketSln.Infrastructure.Identity\JdMarketSln.Infrastructure.Identity.csproj", "{0BF28309-8EE6-43E0-B9F2-A6FB6E1EBC3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JdMarketSln.Infrastructure.Identity", "src\Infrastructure\JdMarketSln.Infrastructure.Identity\JdMarketSln.Infrastructure.Identity.csproj", "{0BF28309-8EE6-43E0-B9F2-A6FB6E1EBC3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JdMarketSln.Infrastructure.Persistence", "src\infrastructure\JdMarketSln.Infrastructure.Persistence\JdMarketSln.Infrastructure.Persistence.csproj", "{BCF82D7A-585B-43CF-9328-16E9FFDBD5BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JdMarketSln.Infrastructure.Persistence", "src\infrastructure\JdMarketSln.Infrastructure.Persistence\JdMarketSln.Infrastructure.Persistence.csproj", "{BCF82D7A-585B-43CF-9328-16E9FFDBD5BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JdMarketSln.Application", "src\Application\JdMarketSln.Application\JdMarketSln.Application.csproj", "{32BA5144-1013-4224-840A-DF61540434CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JdMarketSln.Application", "src\Application\JdMarketSln.Application\JdMarketSln.Application.csproj", "{32BA5144-1013-4224-840A-DF61540434CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JdMarketSln.Domain", "src\Domain\JdMarketSln.Domain\JdMarketSln.Domain.csproj", "{19DCE8D7-EF6B-461C-919B-23C5C2FE8EE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JdMarketSln.Domain", "src\Domain\JdMarketSln.Domain\JdMarketSln.Domain.csproj", "{19DCE8D7-EF6B-461C-919B-23C5C2FE8EE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JdMarketSln.Infrastructure.Shared", "src\Infrastructure\JdMarketSln.Infrastructure.Shared\JdMarketSln.Infrastructure.Shared.csproj", "{146C37CF-B310-484E-B3E7-E50111692418}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JdMarketSln.Infrastructure.Shared", "src\Infrastructure\JdMarketSln.Infrastructure.Shared\JdMarketSln.Infrastructure.Shared.csproj", "{146C37CF-B310-484E-B3E7-E50111692418}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
