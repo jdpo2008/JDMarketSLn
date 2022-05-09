@@ -24,8 +24,4 @@
     <ProjectReference Include="..\..\Infrastructure\JdMarketSln.Infrastructure.Shared\JdMarketSln.Infrastructure.Shared.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Services\" />
-  </ItemGroup>
-
 </Project>

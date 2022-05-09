@@ -1,7 +1,10 @@
 using JdMarketSln.Application;
+using JdMarketSln.Application.Interfaces;
+using JdMarketSln.Infrastructure.Identity;
 using JdMarketSln.Infrastructure.Persistence;
 using JdMarketSln.Infrastructure.Shared;
 using JDMarketSLn.Web.Api.Extensions;
+using JDMarketSLn.Web.Api.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -31,12 +34,14 @@ namespace JDMarketSLn.Web.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddApplicationLayer();
+            services.AddIdentityInfrastructure(Configuration);
             services.AddPersistenceInfrastructure(Configuration);
             services.AddSharedInfrastructure(Configuration);
             services.AddSwaggerExtension();
             services.AddControllers();
             services.AddApiVersioningExtension();
             services.AddHealthChecks();
+            services.AddScoped<IAuthenticatedUserService, AuthenticatedUserService>();
 
             services.AddCors(options =>
             {

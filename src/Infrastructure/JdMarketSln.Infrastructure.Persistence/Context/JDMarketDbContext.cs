@@ -15,10 +15,13 @@ namespace JdMarketSln.Infrastructure.Persistence.Context
     public class JDMarketDbContext : DbContext
     {
         private readonly IDateTimeService _dateTime;
-        public JDMarketDbContext(DbContextOptions<JDMarketDbContext> options, IDateTimeService dateTime) : base(options)
+        private readonly IAuthenticatedUserService _authenticatedUser;
+
+        public JDMarketDbContext(DbContextOptions<JDMarketDbContext> options, IDateTimeService dateTime, IAuthenticatedUserService authenticatedUser) : base(options)
         {
             ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;
             _dateTime = dateTime;
+            _authenticatedUser = authenticatedUser;
         }
 
         public DbSet<Product> Products { get; set; }
@@ -33,12 +36,12 @@ namespace JdMarketSln.Infrastructure.Persistence.Context
                 {
                     case EntityState.Added:
                         entry.Entity.CreatedAt = _dateTime.NowUtc;
-                        //entry.Entity.CreatedBy = _authenticatedUser.UserId;
+                        entry.Entity.CreatedBy = new Guid(_authenticatedUser.UserId);
                         entry.CurrentValues["IsDeleted"] = false;
                         break;
                     case EntityState.Modified:
                         entry.Entity.UpdatedAt = _dateTime.NowUtc;
-                        //entry.Entity.UpdatedBy = _authenticatedUser.UserId;
+                      entry.Entity.UpdatedBy = new Guid(_authenticatedUser.UserId);
                         break;
                     case EntityState.Deleted:
                         entry.State = EntityState.Modified;

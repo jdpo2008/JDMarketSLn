@@ -1,5 +1,9 @@
+using JdMarketSln.Domain.Entities;
+using JdMarketSln.Infrastructure.Identity.Contexts;
+using JdMarketSln.Infrastructure.Identity.Seeds;
 using JdMarketSln.Infrastructure.Persistence.Context;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -24,16 +28,24 @@ namespace JDMarketSLn.Web.Api
                 var isDevelopment = services.GetRequiredService<IWebHostEnvironment>().IsDevelopment();
 
                 using var appContext = services.GetRequiredService<JDMarketDbContext>();
-                //using var identityC0otext = services.GetRequiredService<IdentityContext>();
+                using var identityContext = services.GetRequiredService<JDMarketIdentityDbContext>();
 
                 if (isDevelopment)
                 {
-                    //await identityC0otext.Database.EnsureCreatedAsync();
+                    await identityContext.Database.EnsureCreatedAsync();
                     await appContext.Database.EnsureCreatedAsync();
+
+                    var userManager = services.GetRequiredService<UserManager<User>>();
+                    var roleManager = services.GetRequiredService<RoleManager<Role>>();
+
+                    await DefaultRoles.SeedAsync(userManager, roleManager);
+                    await DefaultSuperAdmin.SeedAsync(userManager, roleManager);
+                    //await Infrastructure.Identity.Seeds.DefaultBasicUser.SeedAsync(userManager, roleManager);
+
                 }
                 else
                 {
-                    //await identityC0otext.Database.MigrateAsync();
+                    await identityContext.Database.MigrateAsync();
                     await appContext.Database.MigrateAsync();
                 }
 
