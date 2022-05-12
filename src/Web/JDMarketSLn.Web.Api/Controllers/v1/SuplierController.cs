@@ -3,6 +3,7 @@ using JdMarketSln.Application.Features.Suppliers.Commands.DeleteSuplier;
 using JdMarketSln.Application.Features.Suppliers.Commands.UpdateSuplier;
 using JdMarketSln.Application.Features.Suppliers.Queries.GetAllSupliersPaginated;
 using JdMarketSln.Application.Features.Suppliers.Queries.GetSuplierById;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
@@ -32,7 +33,7 @@ namespace JDMarketSLn.Web.Api.Controllers.v1
         }
 
         [HttpPost]
-        //[Authorize]
+        [Authorize]
         [Produces("application/json")]
         [ProducesResponseType(201)]
         [ProducesResponseType(400)]
@@ -45,7 +46,7 @@ namespace JDMarketSLn.Web.Api.Controllers.v1
         }
 
         [HttpPut]
-        //[Authorize]
+        [Authorize]
         [Produces("application/json")]
         [ProducesResponseType(200)]
         [ProducesResponseType(400)]
@@ -62,7 +63,7 @@ namespace JDMarketSLn.Web.Api.Controllers.v1
         }
 
         [HttpDelete("{id}")]
-        //[Authorize]
+        [Authorize]
         [Produces("application/json")]
         [ProducesResponseType(200)]
         [ProducesResponseType(400)]

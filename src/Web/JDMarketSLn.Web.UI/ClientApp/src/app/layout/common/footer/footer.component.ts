@@ -1,0 +1,20 @@
+/* eslint-disable @typescript-eslint/member-ordering */
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+    selector: 'app-footer',
+    templateUrl: './footer.component.html',
+    styleUrls: ['./footer.component.scss'],
+})
+export class FooterComponent implements OnInit {
+    constructor() {}
+
+    ngOnInit(): void {}
+
+    /**
+     * Getter for current year
+     */
+    get currentYear(): number {
+        return new Date().getFullYear();
+    }
+}

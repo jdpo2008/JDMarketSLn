@@ -13,6 +13,8 @@ namespace JdMarketSln.Domain.Entities
         public string ProductName { get; set; }
         public string ProductDescription { get; set; }
         public decimal Price { get; set; }
+        public float Stock { get; set; }
+        public bool Discontinued { get; set; }
         public Guid CategoryId { get; set; }
         public Guid SuplierId { get; set; }
         [JsonIgnore]

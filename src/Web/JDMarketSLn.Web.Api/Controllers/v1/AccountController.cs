@@ -2,6 +2,7 @@
 using JdMarketSln.Application.Features.Users.Commands.DeleteUser;
 using JdMarketSln.Application.Features.Users.Commands.UserAuthenticated;
 using JdMarketSln.Application.Features.Users.Queries.GetAllUsers;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -24,6 +25,7 @@ namespace JDMarketSLn.Web.Api.Controllers.v1
         }
 
         [HttpPost]
+        [Authorize(Roles = "SuperAdmin")]
         [Produces("application/json")]
         [ProducesResponseType(201)]
         [ProducesResponseType(400)]
@@ -35,7 +37,7 @@ namespace JDMarketSLn.Web.Api.Controllers.v1
         }
 
         [HttpDelete("{id}")]
-        //[Authorize]
+        [Authorize(Roles = "SuperAdmin")]
         [Produces("application/json")]
         [ProducesResponseType(200)]
         [ProducesResponseType(400)]
