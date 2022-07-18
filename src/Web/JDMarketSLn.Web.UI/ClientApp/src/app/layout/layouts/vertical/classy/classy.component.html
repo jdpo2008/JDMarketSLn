@@ -19,8 +19,7 @@
             </div>
             <!-- Components -->
             <div
-                class="flex items-center ml-auto"
-                [ngClass]="{ 'hidden': navigationAppearance === 'dense' }"
+                class="flex items-center ml-auto fuse-navigation-notification-dense"
             >
                 <notifications></notifications>
                 <!-- <user [showAvatar]="false"></user> -->
@@ -28,8 +27,8 @@
         </div>
         <!-- User -->
         <div
-            class="flex flex-col items-center w-full p-4"
-            [ngClass]="{ 'hidden': navigationAppearance === 'dense' }"
+            class="flex flex-col items-center w-full p-4 fuse-navigation-user-dense"
+
         >
             <div class="relative w-24 h-24">
                 <img

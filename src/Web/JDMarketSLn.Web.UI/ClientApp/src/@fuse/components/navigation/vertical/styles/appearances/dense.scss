@@ -7,6 +7,14 @@ fuse-vertical-navigation {
     /* Dense appearance overrides */
     &.fuse-vertical-navigation-appearance-dense {
 
+        .fuse-navigation-notification-dense {
+            display: none !important;
+        }
+
+        .fuse-navigation-user-dense {
+            display: none !important;
+        }
+
         &:not(.fuse-vertical-navigation-mode-over) {
             width: $fuse-vertical-navigation-dense-width;
             min-width: $fuse-vertical-navigation-dense-width;
@@ -147,6 +155,13 @@ fuse-vertical-navigation {
 
         /* Hover */
         &.fuse-vertical-navigation-hover {
+            .fuse-navigation-notification-dense {
+                display: block !important;
+            }
+
+            .fuse-navigation-user-dense {
+                display: flex !important;
+            }
 
             .fuse-vertical-navigation-wrapper {
                 width: $fuse-vertical-navigation-width;
