@@ -1,0 +1,12 @@
+2023-05-09 14:50:42.0777 Info Message Template Auto Format enabled
+2023-05-09 14:50:42.1314 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-09 14:50:42.1698 Info Registered target NLog.Targets.FileTarget(Name=fileTarget)
+2023-05-09 14:50:42.1698 Info Registered target NLog.Targets.ColoredConsoleTarget(Name=consoleTarget)
+2023-05-09 14:50:42.1902 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target of type: Database
+ ---> System.ArgumentException: Target type-alias is unknown: 'Database'. Extension NLog.Database not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String classType, INamedItemFactory`2 factory)
+   --- End of inner exception stack trace ---
+2023-05-09 14:50:42.2206 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'databaseTarget' not found for logging rule: *.
+2023-05-09 14:50:42.2461 Info Validating config: TargetNames=consoleTarget, fileTarget, ConfigItems=26, FilePath=/app/bin/Debug/net7.0/NLog.config
+2023-05-09 14:50:43.1278 Info Validating config: TargetNames=consoleTarget, fileTarget, ConfigItems=26, FilePath=/app/bin/Debug/net7.0/NLog.config
