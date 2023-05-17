@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.Infraestructure.Identity.Middlewares
+namespace JDMarketSLn.Infraestructure.Identity.Middlewares
 {
     public class EmailConfirmationTokenProvider<TUser> : DataProtectorTokenProvider<TUser> where TUser : class
     {

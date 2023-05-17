@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
-using NetCoreApiTemplate.Application.Common.Models;
+using JDMarketSLn.Application.Common.Models;
 
-namespace NetCoreApiTemplate.Infraestructure.Identity;
+namespace JDMarketSLn.Infraestructure.Identity;
 
 public static class IdentityResultExtensions
 {

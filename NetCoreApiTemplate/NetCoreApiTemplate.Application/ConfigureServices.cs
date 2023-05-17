@@ -1,7 +1,7 @@
 ﻿using System.Reflection;
 using FluentValidation;
 using MediatR;
-using NetCoreApiTemplate.Application.Common.Behaviours;
+using JDMarketSLn.Application.Common.Behaviours;
 
 namespace Microsoft.Extensions.DependencyInjection;
 

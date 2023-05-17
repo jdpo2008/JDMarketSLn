@@ -33,10 +33,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NetCoreApiTemplate.Application\NetCoreApiTemplate.Application.csproj" />
-    <ProjectReference Include="..\NetCoreApiTemplate.Infraestructure.Identity\NetCoreApiTemplate.Infraestructure.Identity.csproj" />
-    <ProjectReference Include="..\NetCoreApiTemplate.Infraestructure.Persistence\NetCoreApiTemplate.Infraestructure.Persistence.csproj" />
-    <ProjectReference Include="..\NetCoreApiTemplate.Infraestructure.Shared\NetCoreApiTemplate.Infraestructure.Shared.csproj" />
+    <ProjectReference Include="..\NetCoreApiTemplate.Application\JDMarketSLn.Application.csproj" />
+    <ProjectReference Include="..\NetCoreApiTemplate.Infraestructure.Identity\JDMarketSLn.Infraestructure.Identity.csproj" />
+    <ProjectReference Include="..\NetCoreApiTemplate.Infraestructure.Persistence\JDMarketSLn.Infraestructure.Persistence.csproj" />
+    <ProjectReference Include="..\NetCoreApiTemplate.Infraestructure.Shared\JDMarketSLn.Infraestructure.Shared.csproj" />
   </ItemGroup>
 
   <ItemGroup>

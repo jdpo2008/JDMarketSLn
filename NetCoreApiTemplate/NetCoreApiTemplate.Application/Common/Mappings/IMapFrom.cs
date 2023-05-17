@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 
-namespace NetCoreApiTemplate.Application.Common.Mappings;
+namespace JDMarketSLn.Application.Common.Mappings;
 
 public interface IMapFrom<T>
 {

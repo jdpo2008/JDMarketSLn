@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.Application.Features.Accounts.Commands.ConfirmEmail
+namespace JDMarketSLn.Application.Features.Accounts.Commands.ConfirmEmail
 {
     public class ConfirmEmailCommandValidator : AbstractValidator<ConfirmEmailCommand>
     {

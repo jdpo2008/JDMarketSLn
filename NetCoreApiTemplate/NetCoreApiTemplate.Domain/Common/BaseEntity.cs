@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-namespace NetCoreApiTemplate.Domain.Common;
+namespace JDMarketSLn.Domain.Common;
 
 public abstract class BaseEntity
 {

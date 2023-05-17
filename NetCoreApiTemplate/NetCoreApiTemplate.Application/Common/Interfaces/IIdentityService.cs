@@ -1,6 +1,6 @@
-﻿using NetCoreApiTemplate.Application.Common.Models;
+﻿using JDMarketSLn.Application.Common.Models;
 
-namespace NetCoreApiTemplate.Application.Common.Interfaces;
+namespace JDMarketSLn.Application.Common.Interfaces;
 
 public interface IIdentityService
 {

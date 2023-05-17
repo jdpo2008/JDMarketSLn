@@ -2,11 +2,11 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using NetCoreApiTemplate.Application.Common.Interfaces;
-using NetCoreApiTemplate.Application.Common.Models;
-using NetCoreApiTemplate.Domain.Entities.Identity;
+using JDMarketSLn.Application.Common.Interfaces;
+using JDMarketSLn.Application.Common.Models;
+using JDMarketSLn.Domain.Entities.Identity;
 
-namespace NetCoreApiTemplate.Infraestructure.Identity.Services;
+namespace JDMarketSLn.Infraestructure.Identity.Services;
 
 public class IdentityService : IIdentityService
 {

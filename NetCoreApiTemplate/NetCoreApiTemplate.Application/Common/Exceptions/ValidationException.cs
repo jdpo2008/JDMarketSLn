@@ -1,6 +1,6 @@
 ﻿using FluentValidation.Results;
 
-namespace NetCoreApiTemplate.Application.Common.Exceptions;
+namespace JDMarketSLn.Application.Common.Exceptions;
 
 public class ValidationException : Exception
 {

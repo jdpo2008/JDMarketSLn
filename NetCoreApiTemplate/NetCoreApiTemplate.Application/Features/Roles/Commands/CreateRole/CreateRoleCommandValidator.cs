@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.Application.Features.Roles.Commands.CreateRole
+namespace JDMarketSLn.Application.Features.Roles.Commands.CreateRole
 {
     public class CreateRoleCommandValidator : AbstractValidator<CreateRoleCommand>
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.Domain.Events.Product
+namespace JDMarketSLn.Domain.Events.Product
 {
     public class CreateProductEvent
     {

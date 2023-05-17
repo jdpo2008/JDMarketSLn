@@ -1,7 +1,7 @@
 ﻿using MediatR;
-using NetCoreApiTemplate.Application.Common.Security;
+using JDMarketSLn.Application.Common.Security;
 
-namespace NetCoreApiTemplate.Application.Features.WeatherForecasts.Queries.GetWeatherForecasts;
+namespace JDMarketSLn.Application.Features.WeatherForecasts.Queries.GetWeatherForecasts;
 
 [Authorize(Roles = "SuperAdmin")]
 public record GetWeatherForecastsQuery : IRequest<IEnumerable<WeatherForecast>>;

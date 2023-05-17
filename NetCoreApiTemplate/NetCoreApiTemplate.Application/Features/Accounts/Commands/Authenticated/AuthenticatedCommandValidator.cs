@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.Application.Features.Accounts.Commands.Authenticated
+namespace JDMarketSLn.Application.Features.Accounts.Commands.Authenticated
 {
     public class AuthenticatedCommandValidator : AbstractValidator<AuthenticatedCommand>
     {

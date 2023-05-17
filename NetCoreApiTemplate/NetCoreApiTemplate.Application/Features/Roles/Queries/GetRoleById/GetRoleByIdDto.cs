@@ -1,13 +1,13 @@
 ﻿using AutoMapper;
-using NetCoreApiTemplate.Application.Common.Mappings;
-using NetCoreApiTemplate.Domain.Entities.Identity;
+using JDMarketSLn.Application.Common.Mappings;
+using JDMarketSLn.Domain.Entities.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.Application.Features.Roles.Queries.GetRoleById
+namespace JDMarketSLn.Application.Features.Roles.Queries.GetRoleById
 {
     public class GetRoleByIdDto : IMapFrom<ApplicationRole>
     {

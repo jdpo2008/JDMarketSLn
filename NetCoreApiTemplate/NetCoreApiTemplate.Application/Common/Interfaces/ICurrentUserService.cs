@@ -1,4 +1,4 @@
-﻿namespace NetCoreApiTemplate.Application.Common.Interfaces;
+﻿namespace JDMarketSLn.Application.Common.Interfaces;
 
 public interface ICurrentUserService
 {

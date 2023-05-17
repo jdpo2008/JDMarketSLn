@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace NetCoreApiTemplate.Infraestructure.Identity.Migrations
+namespace JDMarketSLn.Infraestructure.Identity.Migrations
 {
     /// <inheritdoc />
     public partial class InitialCreate : Migration

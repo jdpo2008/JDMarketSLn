@@ -13,17 +13,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraest
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{9E40B42F-C03A-44F6-99DB-21EADDD4B2BB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreApiTemplate.WebApi", "NetCoreApiTemplate\NetCoreApiTemplate.WebApi\NetCoreApiTemplate.WebApi.csproj", "{E730F36F-AA0B-4D17-B381-1CD8460B906A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JDMarketSLn.WebApi", "NetCoreApiTemplate\NetCoreApiTemplate.WebApi\JDMarketSLn.WebApi.csproj", "{E730F36F-AA0B-4D17-B381-1CD8460B906A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreApiTemplate.Application", "NetCoreApiTemplate\NetCoreApiTemplate.Application\NetCoreApiTemplate.Application.csproj", "{5E7EEF7D-73A6-4993-BCF4-60D2E6567EC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JDMarketSLn.Application", "NetCoreApiTemplate\NetCoreApiTemplate.Application\JDMarketSLn.Application.csproj", "{5E7EEF7D-73A6-4993-BCF4-60D2E6567EC8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreApiTemplate.Domain", "NetCoreApiTemplate\NetCoreApiTemplate.Domain\NetCoreApiTemplate.Domain.csproj", "{BCF22EA6-4FB1-4FBA-B1DA-2ECCC1F500A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JDMarketSLn.Domain", "NetCoreApiTemplate\NetCoreApiTemplate.Domain\JDMarketSLn.Domain.csproj", "{BCF22EA6-4FB1-4FBA-B1DA-2ECCC1F500A1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreApiTemplate.Infraestructure.Identity", "NetCoreApiTemplate\NetCoreApiTemplate.Infraestructure.Identity\NetCoreApiTemplate.Infraestructure.Identity.csproj", "{A7B26AF8-CD70-45E3-935B-753155FDB931}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JDMarketSLn.Infraestructure.Identity", "NetCoreApiTemplate\NetCoreApiTemplate.Infraestructure.Identity\JDMarketSLn.Infraestructure.Identity.csproj", "{A7B26AF8-CD70-45E3-935B-753155FDB931}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreApiTemplate.Infraestructure.Persistence", "NetCoreApiTemplate\NetCoreApiTemplate.Infraestructure.Persistence\NetCoreApiTemplate.Infraestructure.Persistence.csproj", "{39535A3D-2906-4CFB-90C5-64E06714ABE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JDMarketSLn.Infraestructure.Persistence", "NetCoreApiTemplate\NetCoreApiTemplate.Infraestructure.Persistence\JDMarketSLn.Infraestructure.Persistence.csproj", "{39535A3D-2906-4CFB-90C5-64E06714ABE1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreApiTemplate.Infraestructure.Shared", "NetCoreApiTemplate\NetCoreApiTemplate.Infraestructure.Shared\NetCoreApiTemplate.Infraestructure.Shared.csproj", "{25536E64-983F-4E90-9117-A5C2DE1FE6C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JDMarketSLn.Infraestructure.Shared", "NetCoreApiTemplate\NetCoreApiTemplate.Infraestructure.Shared\JDMarketSLn.Infraestructure.Shared.csproj", "{25536E64-983F-4E90-9117-A5C2DE1FE6C5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solucion Items", "Solucion Items", "{028E1163-D90D-4EB6-942E-D1454D628E67}"
 	ProjectSection(SolutionItems) = preProject

@@ -4,18 +4,18 @@ using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.WebUtilities;
-using NetCoreApiTemplate.Application.Common.Exceptions;
-using NetCoreApiTemplate.Application.Common.Interfaces;
-using NetCoreApiTemplate.Application.Common.Models;
-using NetCoreApiTemplate.Application.Common.Request.Email;
-using NetCoreApiTemplate.Domain.Entities.Identity;
-using NetCoreApiTemplate.Domain.Events.User;
+using JDMarketSLn.Application.Common.Exceptions;
+using JDMarketSLn.Application.Common.Interfaces;
+using JDMarketSLn.Application.Common.Models;
+using JDMarketSLn.Application.Common.Request.Email;
+using JDMarketSLn.Domain.Entities.Identity;
+using JDMarketSLn.Domain.Events.User;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 using System.Text.Json.Serialization;
 
-namespace NetCoreApiTemplate.Application.Features.Users.Commands.CreateUser
+namespace JDMarketSLn.Application.Features.Users.Commands.CreateUser
 {
     public class CreateUserCommand : IRequest<Result>
     {

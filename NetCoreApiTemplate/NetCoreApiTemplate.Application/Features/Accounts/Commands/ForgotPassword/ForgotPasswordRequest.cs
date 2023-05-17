@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using NetCoreApiTemplate.Application.Common.Mappings;
+using JDMarketSLn.Application.Common.Mappings;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.Application.Features.Accounts.Commands.ForgotPassword
+namespace JDMarketSLn.Application.Features.Accounts.Commands.ForgotPassword
 {
     public class ForgotPasswordRequest : IMapFrom<ForgotPasswordCommand>
     {

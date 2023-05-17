@@ -1,4 +1,4 @@
-﻿namespace NetCoreApiTemplate.Application.Common.Models;
+﻿namespace JDMarketSLn.Application.Common.Models;
 
 public class Result
 {

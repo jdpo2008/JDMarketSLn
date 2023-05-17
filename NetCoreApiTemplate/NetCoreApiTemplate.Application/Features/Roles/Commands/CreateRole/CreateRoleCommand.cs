@@ -1,8 +1,8 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Identity;
-using NetCoreApiTemplate.Application.Common.Models;
-using NetCoreApiTemplate.Application.Common.Security;
-using NetCoreApiTemplate.Domain.Entities.Identity;
+using JDMarketSLn.Application.Common.Models;
+using JDMarketSLn.Application.Common.Security;
+using JDMarketSLn.Domain.Entities.Identity;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -11,7 +11,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.Application.Features.Roles.Commands.CreateRole
+namespace JDMarketSLn.Application.Features.Roles.Commands.CreateRole
 {
     [Authorize(Roles = "SuperAdmin")]
     public class CreateRoleCommand : IRequest<Result>

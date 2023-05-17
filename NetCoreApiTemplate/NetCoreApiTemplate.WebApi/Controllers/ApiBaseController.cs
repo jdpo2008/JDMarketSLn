@@ -1,9 +1,9 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using NetCoreApiTemplate.WebApi.Filters;
+using JDMarketSLn.WebApi.Filters;
 
-namespace NetCoreApiTemplate.WebApi.Controllers
+namespace JDMarketSLn.WebApi.Controllers
 {
     [ApiController]
     [ApiExceptionFilter]

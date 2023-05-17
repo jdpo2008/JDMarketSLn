@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.Application.Common.Interfaces
+namespace JDMarketSLn.Application.Common.Interfaces
 {
     public interface ISpecification<T>
     {

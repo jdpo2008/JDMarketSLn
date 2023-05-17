@@ -1,10 +1,10 @@
 ﻿using System.Reflection;
-using NetCoreApiTemplate.Application.Common.Exceptions;
-using NetCoreApiTemplate.Application.Common.Interfaces;
-using NetCoreApiTemplate.Application.Common.Security;
+using JDMarketSLn.Application.Common.Exceptions;
+using JDMarketSLn.Application.Common.Interfaces;
+using JDMarketSLn.Application.Common.Security;
 using MediatR;
 
-namespace NetCoreApiTemplate.Application.Common.Behaviours;
+namespace JDMarketSLn.Application.Common.Behaviours;
 
 public class AuthorizationBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse> where TRequest : notnull
 {

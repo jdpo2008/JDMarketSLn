@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using NetCoreApiTemplate.Application.Common.Enums;
-using NetCoreApiTemplate.Application.Features.WeatherForecasts.Queries.GetWeatherForecasts;
+using JDMarketSLn.Application.Common.Enums;
+using JDMarketSLn.Application.Features.WeatherForecasts.Queries.GetWeatherForecasts;
 
-namespace NetCoreApiTemplate.WebApi.Controllers.v1
+namespace JDMarketSLn.WebApi.Controllers.v1
 {
     [ApiVersion("1.0")]
     [Authorize]

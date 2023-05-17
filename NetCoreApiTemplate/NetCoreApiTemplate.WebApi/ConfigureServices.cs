@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Versioning;
 using Microsoft.OpenApi.Models;
-using NetCoreApiTemplate.Application.Common.Interfaces;
-using NetCoreApiTemplate.Application.Interfaces;
-using NetCoreApiTemplate.Infraestructure.Persistence.Contexts;
-using NetCoreApiTemplate.WebApi;
-using NetCoreApiTemplate.WebApi.Services;
+using JDMarketSLn.Application.Common.Interfaces;
+using JDMarketSLn.Application.Interfaces;
+using JDMarketSLn.Infraestructure.Persistence.Contexts;
+using JDMarketSLn.WebApi;
+using JDMarketSLn.WebApi.Services;
 
 namespace Microsoft.Extensions.DependencyInjection;
 

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.Domain.Entities.Identity
+namespace JDMarketSLn.Domain.Entities.Identity
 {
     public class ApplicationRole : IdentityRole<Guid>
     {

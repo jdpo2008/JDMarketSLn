@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.Application.Features.Roles.Commands.UpdateRole
+namespace JDMarketSLn.Application.Features.Roles.Commands.UpdateRole
 {
     public class UpdateRoleCommandValidator : AbstractValidator<UpdateRoleCommand>
     {

@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using NetCoreApiTemplate.Application.Common.Mappings;
-using NetCoreApiTemplate.Application.Features.Accounts.Commands.ResetPassword;
+using JDMarketSLn.Application.Common.Mappings;
+using JDMarketSLn.Application.Features.Accounts.Commands.ResetPassword;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -9,7 +9,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.Application.Features.Roles.Commands.UpdateRole
+namespace JDMarketSLn.Application.Features.Roles.Commands.UpdateRole
 {
     public class UpdateRoleRequest : IMapFrom<UpdateRoleCommand>
     {

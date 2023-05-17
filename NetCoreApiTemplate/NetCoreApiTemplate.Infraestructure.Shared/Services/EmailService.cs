@@ -10,17 +10,17 @@ using System.Net;
 using System.Threading;
 using Microsoft.AspNetCore.Http;
 using System.Runtime.InteropServices;
-using NetCoreApiTemplate.Application.Common.Interfaces;
-using NetCoreApiTemplate.Domain.Settings;
-using NetCoreApiTemplate.Application.Interfaces;
-using NetCoreApiTemplate.Application.Common.Models;
-using NetCoreApiTemplate.Application.Common.Request.Email;
+using JDMarketSLn.Application.Common.Interfaces;
+using JDMarketSLn.Domain.Settings;
+using JDMarketSLn.Application.Interfaces;
+using JDMarketSLn.Application.Common.Models;
+using JDMarketSLn.Application.Common.Request.Email;
 using MimeKit;
 using MailKit.Net.Smtp;
 using MailKit.Security;
-using NetCoreApiTemplate.Application.Common.Exceptions;
+using JDMarketSLn.Application.Common.Exceptions;
 
-namespace NetCoreApiTemplate.Infraestructure.Shared.Services
+namespace JDMarketSLn.Infraestructure.Shared.Services
 {
     public class EmailService : IEmailService
     {

@@ -2,11 +2,11 @@
 using MediatR;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
-using NetCoreApiTemplate.Application.Common.Exceptions;
-using NetCoreApiTemplate.Application.Common.Interfaces;
-using NetCoreApiTemplate.Application.Common.Models;
-using NetCoreApiTemplate.Application.Interfaces;
-using NetCoreApiTemplate.Domain.Entities.Identity;
+using JDMarketSLn.Application.Common.Exceptions;
+using JDMarketSLn.Application.Common.Interfaces;
+using JDMarketSLn.Application.Common.Models;
+using JDMarketSLn.Application.Interfaces;
+using JDMarketSLn.Domain.Entities.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +15,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.Application.Features.Accounts.Commands.ForgotPassword
+namespace JDMarketSLn.Application.Features.Accounts.Commands.ForgotPassword
 {
     public class ForgotPasswordCommand : IRequest<Result>
     {

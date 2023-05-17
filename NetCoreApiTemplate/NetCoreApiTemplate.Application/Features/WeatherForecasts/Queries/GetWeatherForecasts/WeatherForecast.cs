@@ -1,4 +1,4 @@
-﻿namespace NetCoreApiTemplate.Application.Features.WeatherForecasts.Queries.GetWeatherForecasts;
+﻿namespace JDMarketSLn.Application.Features.WeatherForecasts.Queries.GetWeatherForecasts;
 
 public class WeatherForecast
 {

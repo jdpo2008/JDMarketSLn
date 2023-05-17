@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using NetCoreApiTemplate.Infraestructure.Identity.Contexts;
+using JDMarketSLn.Infraestructure.Identity.Contexts;
 
 #nullable disable
 
-namespace NetCoreApiTemplate.Infraestructure.Identity.Migrations
+namespace JDMarketSLn.Infraestructure.Identity.Migrations
 {
     [DbContext(typeof(IdentityContext))]
     partial class IdentityContextModelSnapshot : ModelSnapshot
@@ -126,7 +126,7 @@ namespace NetCoreApiTemplate.Infraestructure.Identity.Migrations
                     b.ToTable("UserTokens", "IDENTITY");
                 });
 
-            modelBuilder.Entity("NetCoreApiTemplate.Domain.Entities.ApplicationRole", b =>
+            modelBuilder.Entity("JDMarketSLn.Domain.Entities.ApplicationRole", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -154,7 +154,7 @@ namespace NetCoreApiTemplate.Infraestructure.Identity.Migrations
                     b.ToTable("Roles", "IDENTITY");
                 });
 
-            modelBuilder.Entity("NetCoreApiTemplate.Domain.Entities.ApplicationUser", b =>
+            modelBuilder.Entity("JDMarketSLn.Domain.Entities.ApplicationUser", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -237,7 +237,7 @@ namespace NetCoreApiTemplate.Infraestructure.Identity.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<System.Guid>", b =>
                 {
-                    b.HasOne("NetCoreApiTemplate.Domain.Entities.ApplicationRole", null)
+                    b.HasOne("JDMarketSLn.Domain.Entities.ApplicationRole", null)
                         .WithMany()
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -246,7 +246,7 @@ namespace NetCoreApiTemplate.Infraestructure.Identity.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<System.Guid>", b =>
                 {
-                    b.HasOne("NetCoreApiTemplate.Domain.Entities.ApplicationUser", null)
+                    b.HasOne("JDMarketSLn.Domain.Entities.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -255,7 +255,7 @@ namespace NetCoreApiTemplate.Infraestructure.Identity.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<System.Guid>", b =>
                 {
-                    b.HasOne("NetCoreApiTemplate.Domain.Entities.ApplicationUser", null)
+                    b.HasOne("JDMarketSLn.Domain.Entities.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -264,13 +264,13 @@ namespace NetCoreApiTemplate.Infraestructure.Identity.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<System.Guid>", b =>
                 {
-                    b.HasOne("NetCoreApiTemplate.Domain.Entities.ApplicationRole", null)
+                    b.HasOne("JDMarketSLn.Domain.Entities.ApplicationRole", null)
                         .WithMany()
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("NetCoreApiTemplate.Domain.Entities.ApplicationUser", null)
+                    b.HasOne("JDMarketSLn.Domain.Entities.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -279,7 +279,7 @@ namespace NetCoreApiTemplate.Infraestructure.Identity.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<System.Guid>", b =>
                 {
-                    b.HasOne("NetCoreApiTemplate.Domain.Entities.ApplicationUser", null)
+                    b.HasOne("JDMarketSLn.Domain.Entities.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)

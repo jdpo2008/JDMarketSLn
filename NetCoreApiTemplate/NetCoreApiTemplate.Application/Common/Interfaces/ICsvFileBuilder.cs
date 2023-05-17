@@ -1,6 +1,6 @@
 ﻿//using CleanArchitecture.Application.TodoLists.Queries.ExportTodos;
 
-namespace NetCoreApiTemplate.Application.Common.Interfaces;
+namespace JDMarketSLn.Application.Common.Interfaces;
 
 public interface ICsvFileBuilder
 {

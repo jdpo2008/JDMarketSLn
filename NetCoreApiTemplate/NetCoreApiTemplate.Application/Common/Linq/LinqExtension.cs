@@ -3,7 +3,7 @@ using System.Linq;
 using System.Linq.Expressions;
 
 
-namespace NetCoreApiTemplate.Application.Common.Linq
+namespace JDMarketSLn.Application.Common.Linq
 {
     public static class LinqExtension
     {

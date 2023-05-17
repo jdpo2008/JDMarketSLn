@@ -1,15 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using System;
-using NetCoreApiTemplate.Application.Features.Roles.Queries.GetAllRoles;
-using NetCoreApiTemplate.Application.Features.Roles.Queries.GetRoleById;
-using NetCoreApiTemplate.Application.Common.Security;
-using NetCoreApiTemplate.Application.Features.Roles.Commands.CreateRole;
-using NetCoreApiTemplate.Application.Features.Users.Commands.DeleteUser;
-using NetCoreApiTemplate.Application.Features.Roles.Commands.DeleteRole;
-using NetCoreApiTemplate.Application.Features.Roles.Commands.UpdateRole;
+using JDMarketSLn.Application.Features.Roles.Queries.GetAllRoles;
+using JDMarketSLn.Application.Features.Roles.Queries.GetRoleById;
+using JDMarketSLn.Application.Common.Security;
+using JDMarketSLn.Application.Features.Roles.Commands.CreateRole;
+using JDMarketSLn.Application.Features.Users.Commands.DeleteUser;
+using JDMarketSLn.Application.Features.Roles.Commands.DeleteRole;
+using JDMarketSLn.Application.Features.Roles.Commands.UpdateRole;
 
-namespace NetCoreApiTemplate.WebApi.Controllers.v1
+namespace JDMarketSLn.WebApi.Controllers.v1
 {
     [ApiVersion("1.0")]
     [Authorize]

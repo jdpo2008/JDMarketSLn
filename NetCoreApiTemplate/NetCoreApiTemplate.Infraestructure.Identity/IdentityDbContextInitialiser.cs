@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using NetCoreApiTemplate.Application.Common.Enums;
-using NetCoreApiTemplate.Domain.Entities.Identity;
-using NetCoreApiTemplate.Infraestructure.Identity.Contexts;
+using JDMarketSLn.Application.Common.Enums;
+using JDMarketSLn.Domain.Entities.Identity;
+using JDMarketSLn.Infraestructure.Identity.Contexts;
 using System.Security.Claims;
 
 namespace CleanArchitecture.Infrastructure.Persistence;

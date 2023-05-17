@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
-using NetCoreApiTemplate.Application.Common.Exceptions;
-using NetCoreApiTemplate.Application.Common.Models;
-using NetCoreApiTemplate.Application.Common.Security;
-using NetCoreApiTemplate.Domain.Entities.Identity;
+using JDMarketSLn.Application.Common.Exceptions;
+using JDMarketSLn.Application.Common.Models;
+using JDMarketSLn.Application.Common.Security;
+using JDMarketSLn.Domain.Entities.Identity;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -14,7 +14,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.Application.Features.Roles.Commands.UpdateRole
+namespace JDMarketSLn.Application.Features.Roles.Commands.UpdateRole
 {
     [Authorize(Roles = "SuperAdmin")]
     public class UpdateRoleCommand : IRequest<Result>

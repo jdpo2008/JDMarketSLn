@@ -1,4 +1,4 @@
-﻿namespace NetCoreApiTemplate.Domain.Common;
+﻿namespace JDMarketSLn.Domain.Common;
 
 public abstract class BaseAuditableEntity : BaseEntity
 {

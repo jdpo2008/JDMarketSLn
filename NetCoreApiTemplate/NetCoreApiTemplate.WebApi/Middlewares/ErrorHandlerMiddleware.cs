@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.Data.SqlClient;
-using NetCoreApiTemplate.Application.Common.Exceptions;
-using NetCoreApiTemplate.Application.Common.Models;
+using JDMarketSLn.Application.Common.Exceptions;
+using JDMarketSLn.Application.Common.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ using System.Net;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.WebApi.Middlewares
+namespace JDMarketSLn.WebApi.Middlewares
 {
     public class ErrorHandlerMiddleware : IMiddleware
     {

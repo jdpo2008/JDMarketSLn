@@ -1,11 +1,11 @@
-﻿using NetCoreApiTemplate.Domain.Common;
+﻿using JDMarketSLn.Domain.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.Domain.Entities
+namespace JDMarketSLn.Domain.Entities
 {
     public class Log : BaseEntity
     {

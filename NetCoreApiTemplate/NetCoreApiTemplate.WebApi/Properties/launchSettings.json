@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "NetCoreApiTemplate.WebApi": {
+    "JDMarketSLn.WebApi": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using NetCoreApiTemplate.Application.Common.Interfaces;
-using NetCoreApiTemplate.Application.Common.Linq;
-using NetCoreApiTemplate.Domain.Common;
-using NetCoreApiTemplate.Infraestructure.Persistence.Contexts;
+using JDMarketSLn.Application.Common.Interfaces;
+using JDMarketSLn.Application.Common.Linq;
+using JDMarketSLn.Domain.Common;
+using JDMarketSLn.Infraestructure.Persistence.Contexts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.Infraestructure.Persistence
+namespace JDMarketSLn.Infraestructure.Persistence
 {
     public class GenericRepositoryAsync<T> : IGenericRepositoryAsync<T> where T : BaseAuditableEntity 
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.Application.Common.Enums
+namespace JDMarketSLn.Application.Common.Enums
 {
     public enum Gender
     {

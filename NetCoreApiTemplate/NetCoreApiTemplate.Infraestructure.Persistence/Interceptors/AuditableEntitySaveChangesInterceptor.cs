@@ -2,10 +2,10 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.Diagnostics;
-using NetCoreApiTemplate.Application.Common.Interfaces;
-using NetCoreApiTemplate.Domain.Common;
+using JDMarketSLn.Application.Common.Interfaces;
+using JDMarketSLn.Domain.Common;
 
-namespace NetCoreApiTemplate.Infraestructure.Persistence.Interceptors;
+namespace JDMarketSLn.Infraestructure.Persistence.Interceptors;
 
 public class AuditableEntitySaveChangesInterceptor : SaveChangesInterceptor
 {

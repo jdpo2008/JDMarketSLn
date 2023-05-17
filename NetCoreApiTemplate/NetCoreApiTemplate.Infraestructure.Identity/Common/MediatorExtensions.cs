@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using NetCoreApiTemplate.Domain.Common;
-using NetCoreApiTemplate.Domain.Entities.Identity;
+using JDMarketSLn.Domain.Common;
+using JDMarketSLn.Domain.Entities.Identity;
 
 namespace MediatR;
 

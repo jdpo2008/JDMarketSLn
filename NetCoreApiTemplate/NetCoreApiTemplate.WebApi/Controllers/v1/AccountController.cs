@@ -1,17 +1,17 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using NetCoreApiTemplate.Application.Features.Accounts.Commands.ConfirmEmail;
-using NetCoreApiTemplate.Application.Features.Accounts.Commands.Logout;
-using NetCoreApiTemplate.Application.Features.Accounts.Commands.Authenticated;
-using NetCoreApiTemplate.Application.Features.Accounts.Commands.ChangePassword;
-using NetCoreApiTemplate.Application.Features.Accounts.Commands.ForgotPassword;
-using NetCoreApiTemplate.Application.Features.Accounts.Commands.ResetPassword;
+using JDMarketSLn.Application.Features.Accounts.Commands.ConfirmEmail;
+using JDMarketSLn.Application.Features.Accounts.Commands.Logout;
+using JDMarketSLn.Application.Features.Accounts.Commands.Authenticated;
+using JDMarketSLn.Application.Features.Accounts.Commands.ChangePassword;
+using JDMarketSLn.Application.Features.Accounts.Commands.ForgotPassword;
+using JDMarketSLn.Application.Features.Accounts.Commands.ResetPassword;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.WebApi.Controllers.v1
+namespace JDMarketSLn.WebApi.Controllers.v1
 {
     [ApiVersion("1.0")]
     public class AccountController : ApiBaseController

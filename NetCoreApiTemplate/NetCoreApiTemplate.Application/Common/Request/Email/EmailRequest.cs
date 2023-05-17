@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.Application.Common.Request.Email
+namespace JDMarketSLn.Application.Common.Request.Email
 {
     public class EmailRequest
     {

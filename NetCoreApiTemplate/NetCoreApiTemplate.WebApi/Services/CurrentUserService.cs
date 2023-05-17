@@ -1,8 +1,8 @@
 ﻿using System.Security.Claims;
 
-using NetCoreApiTemplate.Application.Common.Interfaces;
+using JDMarketSLn.Application.Common.Interfaces;
 
-namespace NetCoreApiTemplate.WebApi.Services;
+namespace JDMarketSLn.WebApi.Services;
 
 public class CurrentUserService : ICurrentUserService
 {

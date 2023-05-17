@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
-using NetCoreApiTemplate.Application.Common.Interfaces;
-using NetCoreApiTemplate.Domain.Settings;
-using NetCoreApiTemplate.Infraestructure.Shared.Services;
+using JDMarketSLn.Application.Common.Interfaces;
+using JDMarketSLn.Domain.Settings;
+using JDMarketSLn.Infraestructure.Shared.Services;
 using static Org.BouncyCastle.Math.EC.ECCurve;
 
 namespace Microsoft.Extensions.DependencyInjection;

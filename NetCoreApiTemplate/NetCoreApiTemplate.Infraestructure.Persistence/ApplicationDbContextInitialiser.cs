@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using NetCoreApiTemplate.Infraestructure.Persistence.Contexts;
+using JDMarketSLn.Infraestructure.Persistence.Contexts;
 
-namespace NetCoreApiTemplate.Infraestructure.Persistence;
+namespace JDMarketSLn.Infraestructure.Persistence;
 
 public class ApplicationDbContextInitialiser
 {

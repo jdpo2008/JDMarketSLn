@@ -1,4 +1,4 @@
-﻿using NetCoreApiTemplate.Application.Interfaces;
+﻿using JDMarketSLn.Application.Interfaces;
 using NLog;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.WebApi.Services
+namespace JDMarketSLn.WebApi.Services
 {
     public class LoggerService : ILoggerService
     {

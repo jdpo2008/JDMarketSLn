@@ -1,13 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using NetCoreApiTemplate.Application.Common.Interfaces;
-using NetCoreApiTemplate.Domain.Common;
+using JDMarketSLn.Application.Common.Interfaces;
+using JDMarketSLn.Domain.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.Infraestructure.Persistence
+namespace JDMarketSLn.Infraestructure.Persistence
 {
     public class SpecificationEvaluator<T> where T : BaseAuditableEntity
     {

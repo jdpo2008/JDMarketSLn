@@ -1,9 +1,9 @@
-﻿using NetCoreApiTemplate.Application.Common.Interfaces;
+﻿using JDMarketSLn.Application.Common.Interfaces;
 using MediatR.Pipeline;
 using Microsoft.Extensions.Logging;
-using NetCoreApiTemplate.Application.Interfaces;
+using JDMarketSLn.Application.Interfaces;
 
-namespace NetCoreApiTemplate.Application.Common.Behaviours;
+namespace JDMarketSLn.Application.Common.Behaviours;
 
 public class LoggingBehaviour<TRequest> : IRequestPreProcessor<TRequest> where TRequest : notnull
 {
@@ -31,9 +31,9 @@ public class LoggingBehaviour<TRequest> : IRequestPreProcessor<TRequest> where T
             userName = await _identityService.GetUserNameAsync(userId);
         }
 
-        _loggerService.LogInfo("NetCoreApiTemplate Request: {Name} {@UserId} {@UserName} {@Request}", requestName, userId, userName, request);
+        _loggerService.LogInfo("JDMarketSLn Request: {Name} {@UserId} {@UserName} {@Request}", requestName, userId, userName, request);
 
-        _logger.LogInformation("NetCoreApiTemplate Request: {Name} {@UserId} {@UserName} {@Request}",
+        _logger.LogInformation("JDMarketSLn Request: {Name} {@UserId} {@UserName} {@Request}",
             requestName, userId, userName, request);
     }
 }

@@ -1,4 +1,4 @@
-﻿using NetCoreApiTemplate.Application.Common.Interfaces;
+﻿using JDMarketSLn.Application.Common.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.Infraestructure.Persistence
+namespace JDMarketSLn.Infraestructure.Persistence
 {
     public class BaseSpecifcation<T> : ISpecification<T>
     {

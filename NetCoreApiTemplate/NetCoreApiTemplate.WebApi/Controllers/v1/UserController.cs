@@ -1,13 +1,13 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using NetCoreApiTemplate.Application.Features.Users.Commands.CreateUser;
-using NetCoreApiTemplate.Application.Features.Users.Commands.DeleteUser;
-using NetCoreApiTemplate.Application.Features.Users.Queries.GetAllUsers;
-using NetCoreApiTemplate.Application.Features.Users.Queries.GetUserById;
+using JDMarketSLn.Application.Features.Users.Commands.CreateUser;
+using JDMarketSLn.Application.Features.Users.Commands.DeleteUser;
+using JDMarketSLn.Application.Features.Users.Queries.GetAllUsers;
+using JDMarketSLn.Application.Features.Users.Queries.GetUserById;
 using System;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.WebApi.Controllers.v1
+namespace JDMarketSLn.WebApi.Controllers.v1
 {
     [ApiVersion("1.0")]
     [Authorize]

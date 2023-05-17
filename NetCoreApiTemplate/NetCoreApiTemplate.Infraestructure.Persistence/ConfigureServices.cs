@@ -4,10 +4,10 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
-using NetCoreApiTemplate.Application.Common.Interfaces;
-using NetCoreApiTemplate.Infraestructure.Persistence;
-using NetCoreApiTemplate.Infraestructure.Persistence.Contexts;
-using NetCoreApiTemplate.Infraestructure.Persistence.Interceptors;
+using JDMarketSLn.Application.Common.Interfaces;
+using JDMarketSLn.Infraestructure.Persistence;
+using JDMarketSLn.Infraestructure.Persistence.Contexts;
+using JDMarketSLn.Infraestructure.Persistence.Interceptors;
 
 namespace Microsoft.Extensions.DependencyInjection;
 

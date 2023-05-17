@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
-using NetCoreApiTemplate.Application.Features.WeatherForecasts.Queries.GetWeatherForecasts;
+using JDMarketSLn.Application.Features.WeatherForecasts.Queries.GetWeatherForecasts;
 
-namespace NetCoreApiTemplate.WebApi.Controllers.v2
+namespace JDMarketSLn.WebApi.Controllers.v2
 {
     [ApiVersion("2.0")]
     public class WeatherForecastController : ApiBaseController

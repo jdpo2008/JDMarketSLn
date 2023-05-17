@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace NetCoreApiTemplate.Domain.Common;
+namespace JDMarketSLn.Domain.Common;
 
 public abstract class BaseEvent : INotification
 {

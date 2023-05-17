@@ -6,7 +6,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.Application.Common.Helpers
+namespace JDMarketSLn.Application.Common.Helpers
 {
     public class CryptoHelper
     {

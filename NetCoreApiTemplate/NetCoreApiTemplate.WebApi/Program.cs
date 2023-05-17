@@ -1,8 +1,8 @@
 using CleanArchitecture.Infrastructure.Persistence;
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.Extensions.Options;
-using NetCoreApiTemplate.Infraestructure.Persistence;
-using NetCoreApiTemplate.WebApi.Middlewares;
+using JDMarketSLn.Infraestructure.Persistence;
+using JDMarketSLn.WebApi.Middlewares;
 using NLog;
 using NLog.Web;
 using Swashbuckle.AspNetCore.SwaggerUI;
@@ -54,11 +54,11 @@ try
         app.UseSwagger();
         app.UseSwaggerUI(c =>
         {
-            //c.SwaggerEndpoint("/swagger/v1/swagger.json", "NetCoreApiTemplate.WebApi");
+            //c.SwaggerEndpoint("/swagger/v1/swagger.json", "JDMarketSLn.WebApi");
             foreach (var description in apiVersionDescriptionProvider.ApiVersionDescriptions)
             {
                 c.SwaggerEndpoint($"/swagger/{description.GroupName}/swagger.json",
-                    $"NetCoreApiTemplate.WebApi {description.GroupName.ToUpperInvariant()}");
+                    $"JDMarketSLn.WebApi {description.GroupName.ToUpperInvariant()}");
             }
             c.DefaultModelExpandDepth(2);
             c.DefaultModelRendering(ModelRendering.Model);

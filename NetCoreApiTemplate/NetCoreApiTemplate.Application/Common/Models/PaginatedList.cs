@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace NetCoreApiTemplate.Application.Common.Models;
+namespace JDMarketSLn.Application.Common.Models;
 
 public class PaginatedList<T>
 {

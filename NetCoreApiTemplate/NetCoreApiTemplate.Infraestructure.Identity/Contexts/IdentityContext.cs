@@ -6,14 +6,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using NetCoreApiTemplate.Application.Common.Interfaces;
+using JDMarketSLn.Application.Common.Interfaces;
 using System.Reflection;
 using Microsoft.Extensions.Options;
 using Microsoft.AspNetCore.Identity;
-using NetCoreApiTemplate.Domain.Entities.Identity;
+using JDMarketSLn.Domain.Entities.Identity;
 using MediatR;
 
-namespace NetCoreApiTemplate.Infraestructure.Identity.Contexts
+namespace JDMarketSLn.Infraestructure.Identity.Contexts
 {
     public class IdentityContext : IdentityDbContext<ApplicationUser, ApplicationRole, Guid>
     {

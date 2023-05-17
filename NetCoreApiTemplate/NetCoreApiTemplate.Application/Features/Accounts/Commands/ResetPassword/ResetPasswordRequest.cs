@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
-using NetCoreApiTemplate.Application.Common.Mappings;
+using JDMarketSLn.Application.Common.Mappings;
 
-namespace NetCoreApiTemplate.Application.Features.Accounts.Commands.ResetPassword
+namespace JDMarketSLn.Application.Features.Accounts.Commands.ResetPassword
 {
     public class ResetPasswordRequest : IMapFrom<ResetPasswordCommand>
     {

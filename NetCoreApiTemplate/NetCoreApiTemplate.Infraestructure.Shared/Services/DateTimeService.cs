@@ -1,11 +1,11 @@
-﻿using NetCoreApiTemplate.Application.Common.Interfaces;
+﻿using JDMarketSLn.Application.Common.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.Infraestructure.Shared.Services
+namespace JDMarketSLn.Infraestructure.Shared.Services
 {
     public class DateTimeService : IDateTime
     {

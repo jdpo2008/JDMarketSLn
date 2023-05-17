@@ -7,21 +7,21 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
-COPY ["NetCoreApiTemplate/NetCoreApiTemplate.WebApi/NetCoreApiTemplate.WebApi.csproj", "NetCoreApiTemplate/NetCoreApiTemplate.WebApi/"]
-COPY ["NetCoreApiTemplate/NetCoreApiTemplate.Application/NetCoreApiTemplate.Application.csproj", "NetCoreApiTemplate/NetCoreApiTemplate.Application/"]
-COPY ["NetCoreApiTemplate/NetCoreApiTemplate.Domain/NetCoreApiTemplate.Domain.csproj", "NetCoreApiTemplate/NetCoreApiTemplate.Domain/"]
-COPY ["NetCoreApiTemplate/NetCoreApiTemplate.Infraestructure.Identity/NetCoreApiTemplate.Infraestructure.Identity.csproj", "NetCoreApiTemplate/NetCoreApiTemplate.Infraestructure.Identity/"]
-COPY ["NetCoreApiTemplate/NetCoreApiTemplate.Infraestructure.Persistence/NetCoreApiTemplate.Infraestructure.Persistence.csproj", "NetCoreApiTemplate/NetCoreApiTemplate.Infraestructure.Persistence/"]
-COPY ["NetCoreApiTemplate/NetCoreApiTemplate.Infraestructure.Shared/NetCoreApiTemplate.Infraestructure.Shared.csproj", "NetCoreApiTemplate/NetCoreApiTemplate.Infraestructure.Shared/"]
-RUN dotnet restore "NetCoreApiTemplate/NetCoreApiTemplate.WebApi/NetCoreApiTemplate.WebApi.csproj"
+COPY ["JDMarketSLn/JDMarketSLn.WebApi/JDMarketSLn.WebApi.csproj", "JDMarketSLn/JDMarketSLn.WebApi/"]
+COPY ["JDMarketSLn/JDMarketSLn.Application/JDMarketSLn.Application.csproj", "JDMarketSLn/JDMarketSLn.Application/"]
+COPY ["JDMarketSLn/JDMarketSLn.Domain/JDMarketSLn.Domain.csproj", "JDMarketSLn/JDMarketSLn.Domain/"]
+COPY ["JDMarketSLn/JDMarketSLn.Infraestructure.Identity/JDMarketSLn.Infraestructure.Identity.csproj", "JDMarketSLn/JDMarketSLn.Infraestructure.Identity/"]
+COPY ["JDMarketSLn/JDMarketSLn.Infraestructure.Persistence/JDMarketSLn.Infraestructure.Persistence.csproj", "JDMarketSLn/JDMarketSLn.Infraestructure.Persistence/"]
+COPY ["JDMarketSLn/JDMarketSLn.Infraestructure.Shared/JDMarketSLn.Infraestructure.Shared.csproj", "JDMarketSLn/JDMarketSLn.Infraestructure.Shared/"]
+RUN dotnet restore "JDMarketSLn/JDMarketSLn.WebApi/JDMarketSLn.WebApi.csproj"
 COPY . .
-WORKDIR "/src/NetCoreApiTemplate/NetCoreApiTemplate.WebApi"
-RUN dotnet build "NetCoreApiTemplate.WebApi.csproj" -c Release -o /app/build
+WORKDIR "/src/JDMarketSLn/JDMarketSLn.WebApi"
+RUN dotnet build "JDMarketSLn.WebApi.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "NetCoreApiTemplate.WebApi.csproj" -c Release -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "JDMarketSLn.WebApi.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "NetCoreApiTemplate.WebApi.dll"]
+ENTRYPOINT ["dotnet", "JDMarketSLn.WebApi.dll"]

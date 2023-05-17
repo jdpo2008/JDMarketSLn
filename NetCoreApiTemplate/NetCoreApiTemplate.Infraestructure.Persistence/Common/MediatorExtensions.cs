@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using NetCoreApiTemplate.Domain.Common;
+using JDMarketSLn.Domain.Common;
 
 namespace MediatR;
 

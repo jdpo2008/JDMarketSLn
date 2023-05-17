@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
-using NetCoreApiTemplate.Application.Common.Exceptions;
-using NetCoreApiTemplate.Application.Common.Interfaces;
-using NetCoreApiTemplate.Application.Common.Models;
-using NetCoreApiTemplate.Application.Interfaces;
-using NetCoreApiTemplate.Domain.Entities.Identity;
+using JDMarketSLn.Application.Common.Exceptions;
+using JDMarketSLn.Application.Common.Interfaces;
+using JDMarketSLn.Application.Common.Models;
+using JDMarketSLn.Application.Interfaces;
+using JDMarketSLn.Domain.Entities.Identity;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -15,7 +15,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.Application.Features.Accounts.Commands.ChangePassword
+namespace JDMarketSLn.Application.Features.Accounts.Commands.ChangePassword
 {
     public class ChangePasswordCommand : IRequest<Result>
     {

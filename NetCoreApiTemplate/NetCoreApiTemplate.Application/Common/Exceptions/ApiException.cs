@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 
-namespace NetCoreApiTemplate.Application.Common.Exceptions;
+namespace JDMarketSLn.Application.Common.Exceptions;
 
 public class ApiException : Exception
 {

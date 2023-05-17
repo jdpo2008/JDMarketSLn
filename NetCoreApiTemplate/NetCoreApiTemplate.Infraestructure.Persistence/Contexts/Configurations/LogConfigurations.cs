@@ -1,13 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using NetCoreApiTemplate.Domain.Entities;
+using JDMarketSLn.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.Infraestructure.Persistence.Contexts.Configurations
+namespace JDMarketSLn.Infraestructure.Persistence.Contexts.Configurations
 {
     public class LogConfigurations : IEntityTypeConfiguration<Log>
     {

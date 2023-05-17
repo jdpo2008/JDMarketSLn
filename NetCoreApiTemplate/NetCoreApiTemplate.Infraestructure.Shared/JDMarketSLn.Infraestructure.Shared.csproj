@@ -12,8 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NetCoreApiTemplate.Application\NetCoreApiTemplate.Application.csproj" />
-    <ProjectReference Include="..\NetCoreApiTemplate.Domain\NetCoreApiTemplate.Domain.csproj" />
+    <ProjectReference Include="..\NetCoreApiTemplate.Application\JDMarketSLn.Application.csproj" />
+    <ProjectReference Include="..\NetCoreApiTemplate.Domain\JDMarketSLn.Domain.csproj" />
   </ItemGroup>
 
 </Project>

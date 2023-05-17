@@ -1,17 +1,17 @@
 ﻿using AutoMapper;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
-using NetCoreApiTemplate.Application.Common.Exceptions;
-using NetCoreApiTemplate.Application.Common.Models;
-using NetCoreApiTemplate.Application.Common.Security;
-using NetCoreApiTemplate.Domain.Entities.Identity;
+using JDMarketSLn.Application.Common.Exceptions;
+using JDMarketSLn.Application.Common.Models;
+using JDMarketSLn.Application.Common.Security;
+using JDMarketSLn.Domain.Entities.Identity;
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.Application.Features.Users.Commands.DeleteUser
+namespace JDMarketSLn.Application.Features.Users.Commands.DeleteUser
 {
     [Authorize(Roles = "SuperAdmin")]
     public class DeleteUserCommand : IRequest<Result>

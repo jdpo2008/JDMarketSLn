@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NetCoreApiTemplate.Application.Common.Enums
+namespace JDMarketSLn.Application.Common.Enums
 {
     public enum Roles
     {

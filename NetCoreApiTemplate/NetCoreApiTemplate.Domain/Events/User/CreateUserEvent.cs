@@ -1,12 +1,12 @@
-﻿using NetCoreApiTemplate.Domain.Common;
-using NetCoreApiTemplate.Domain.Entities.Identity;
+﻿using JDMarketSLn.Domain.Common;
+using JDMarketSLn.Domain.Entities.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.Domain.Events.User
+namespace JDMarketSLn.Domain.Events.User
 {
     public class CreateUserEvent : BaseEvent
     {

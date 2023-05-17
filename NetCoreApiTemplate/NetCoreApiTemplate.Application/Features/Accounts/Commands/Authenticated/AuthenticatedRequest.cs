@@ -1,12 +1,12 @@
 ﻿using AutoMapper;
-using NetCoreApiTemplate.Application.Common.Mappings;
+using JDMarketSLn.Application.Common.Mappings;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.Application.Features.Accounts.Commands.Authenticated
+namespace JDMarketSLn.Application.Features.Accounts.Commands.Authenticated
 {
     public class AuthenticatedRequest : IMapFrom<AuthenticatedCommand>
     {

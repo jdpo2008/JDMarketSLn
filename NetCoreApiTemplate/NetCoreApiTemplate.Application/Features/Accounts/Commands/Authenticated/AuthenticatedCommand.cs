@@ -11,15 +11,15 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
-using NetCoreApiTemplate.Domain.Settings;
-using NetCoreApiTemplate.Application.Common.Interfaces;
+using JDMarketSLn.Domain.Settings;
+using JDMarketSLn.Application.Common.Interfaces;
 using System.IdentityModel.Tokens.Jwt;
 using Microsoft.IdentityModel.Tokens;
-using NetCoreApiTemplate.Application.Common.Helpers;
-using NetCoreApiTemplate.Application.Common.Exceptions;
-using NetCoreApiTemplate.Domain.Entities.Identity;
+using JDMarketSLn.Application.Common.Helpers;
+using JDMarketSLn.Application.Common.Exceptions;
+using JDMarketSLn.Domain.Entities.Identity;
 
-namespace NetCoreApiTemplate.Application.Features.Accounts.Commands.Authenticated
+namespace JDMarketSLn.Application.Features.Accounts.Commands.Authenticated
 {
     public class AuthenticatedCommand : IRequest<AuthenticatedDto>
     {

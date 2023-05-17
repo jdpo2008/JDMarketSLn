@@ -3,9 +3,9 @@ using AutoMapper.QueryableExtensions;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using NetCoreApiTemplate.Application.Common.Models;
-using NetCoreApiTemplate.Application.Common.Security;
-using NetCoreApiTemplate.Domain.Entities.Identity;
+using JDMarketSLn.Application.Common.Models;
+using JDMarketSLn.Application.Common.Security;
+using JDMarketSLn.Domain.Entities.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +13,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.Application.Features.Users.Queries.GetAllUsers
+namespace JDMarketSLn.Application.Features.Users.Queries.GetAllUsers
 {
     [Authorize(Roles = "SuperAdmin")]
     public class GetAllUsersQuery : IRequest<PaginatedList<GetAllUsersDto>>

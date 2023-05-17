@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace NetCoreApiTemplate.Application.Features.Accounts.Commands.ForgotPassword
+namespace JDMarketSLn.Application.Features.Accounts.Commands.ForgotPassword
 {
     public class ForgotPasswordCommandValidator : AbstractValidator<ForgotPasswordCommand>
     {

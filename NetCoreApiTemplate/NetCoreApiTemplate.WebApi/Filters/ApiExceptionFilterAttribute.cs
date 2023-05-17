@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
-using NetCoreApiTemplate.Application.Common.Exceptions;
+using JDMarketSLn.Application.Common.Exceptions;
 
-namespace NetCoreApiTemplate.WebApi.Filters
+namespace JDMarketSLn.WebApi.Filters
 {
     public class ApiExceptionFilterAttribute : ExceptionFilterAttribute
     {

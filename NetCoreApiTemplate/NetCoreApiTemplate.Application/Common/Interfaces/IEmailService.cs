@@ -1,5 +1,5 @@
-﻿using NetCoreApiTemplate.Application.Common.Models;
-using NetCoreApiTemplate.Application.Common.Request.Email;
+﻿using JDMarketSLn.Application.Common.Models;
+using JDMarketSLn.Application.Common.Request.Email;
 using System;
 using System.Collections.Generic;
 using System.Security.Principal;
@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.Application.Common.Interfaces
+namespace JDMarketSLn.Application.Common.Interfaces
 {
     public interface IEmailService
     {

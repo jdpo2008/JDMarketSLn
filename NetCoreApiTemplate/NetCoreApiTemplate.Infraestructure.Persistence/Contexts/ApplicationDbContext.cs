@@ -1,9 +1,9 @@
 ﻿using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
-using NetCoreApiTemplate.Application.Common.Interfaces;
-using NetCoreApiTemplate.Domain.Entities;
-using NetCoreApiTemplate.Infraestructure.Persistence.Interceptors;
+using JDMarketSLn.Application.Common.Interfaces;
+using JDMarketSLn.Domain.Entities;
+using JDMarketSLn.Infraestructure.Persistence.Interceptors;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.Infraestructure.Persistence.Contexts
+namespace JDMarketSLn.Infraestructure.Persistence.Contexts
 {
     public class ApplicationDbContext : DbContext, IApplicationDbContext
     {
@@ -31,7 +31,17 @@ namespace NetCoreApiTemplate.Infraestructure.Persistence.Contexts
         }
 
         public DbSet<Log> Logs => Set<Log>();
-        //public DbSet<TodoItem> TodoItems => Set<TodoItem>();
+
+        public DbSet<Product> Products => Set<Product>();
+
+        public DbSet<Category> Categories => Set<Category>();
+
+        public DbSet<SubCategory> SubCategories => Set<SubCategory>();
+
+        public DbSet<ProductDetail> ProductDetails => Set<ProductDetail>();
+
+        public DbSet<UnitMeasureProduct> UnitMeasureProducts => Set<UnitMeasureProduct>();
+
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NetCoreApiTemplate.Domain.Settings
+namespace JDMarketSLn.Domain.Settings
 {
     public class JWTSettings
     {

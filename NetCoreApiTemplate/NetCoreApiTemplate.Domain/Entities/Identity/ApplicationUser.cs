@@ -1,6 +1,6 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Identity;
-using NetCoreApiTemplate.Domain.Common;
+using JDMarketSLn.Domain.Common;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.Domain.Entities.Identity
+namespace JDMarketSLn.Domain.Entities.Identity
 {
     public class ApplicationUser : IdentityUser<Guid>
     {

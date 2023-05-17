@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NetCoreApiTemplate.Application\NetCoreApiTemplate.Application.csproj" />
+    <ProjectReference Include="..\NetCoreApiTemplate.Application\JDMarketSLn.Application.csproj" />
   </ItemGroup>
 
   <ItemGroup>

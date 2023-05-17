@@ -2,10 +2,10 @@
 using AutoMapper.QueryableExtensions;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
-using NetCoreApiTemplate.Application.Common.Models;
-using NetCoreApiTemplate.Application.Common.Security;
-using NetCoreApiTemplate.Application.Features.Users.Queries.GetAllUsers;
-using NetCoreApiTemplate.Domain.Entities.Identity;
+using JDMarketSLn.Application.Common.Models;
+using JDMarketSLn.Application.Common.Security;
+using JDMarketSLn.Application.Features.Users.Queries.GetAllUsers;
+using JDMarketSLn.Domain.Entities.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +13,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.Application.Features.Roles.Queries.GetAllRoles
+namespace JDMarketSLn.Application.Features.Roles.Queries.GetAllRoles
 {
     [Authorize(Roles = "SuperAdmin")]
     public class GetAllRolesQuery : IRequest<PaginatedList<GetAllRolesDto>>

@@ -1,8 +1,8 @@
 ﻿using FluentValidation;
 using MediatR;
-using ValidationException = NetCoreApiTemplate.Application.Common.Exceptions.ValidationException;
+using ValidationException = JDMarketSLn.Application.Common.Exceptions.ValidationException;
 
-namespace NetCoreApiTemplate.Application.Common.Behaviours;
+namespace JDMarketSLn.Application.Common.Behaviours;
 
 public class ValidationBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
      where TRequest : notnull

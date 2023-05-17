@@ -1,4 +1,4 @@
-﻿using NetCoreApiTemplate.Domain.Common;
+﻿using JDMarketSLn.Domain.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace NetCoreApiTemplate.Application.Common.Interfaces
+namespace JDMarketSLn.Application.Common.Interfaces
 {
     public interface IGenericRepositoryAsync<T> where T : BaseAuditableEntity
     {

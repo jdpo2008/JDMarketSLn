@@ -3,7 +3,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace NetCoreApiTemplate.WebApi
+namespace JDMarketSLn.WebApi
 {
     public class ConfigureSwaggerOptions
     : IConfigureNamedOptions<SwaggerGenOptions>
@@ -51,7 +51,7 @@ namespace NetCoreApiTemplate.WebApi
         {
             var info = new OpenApiInfo()
             {
-                Title = "vs-NetCoreApiTemplate",
+                Title = "vs-JDMarketSLn",
                 Version = desc.ApiVersion.ToString(),
                 Description = "This Api will be responsible for overall data distribution and authorization.",
                 Contact = new OpenApiContact

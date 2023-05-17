@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
 using AutoMapper.QueryableExtensions;
-using NetCoreApiTemplate.Application.Common.Models;
+using JDMarketSLn.Application.Common.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace NetCoreApiTemplate.Application.Common.Models;
+namespace JDMarketSLn.Application.Common.Models;
 
 public static class MappingExtensions
 {
